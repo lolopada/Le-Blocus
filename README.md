@@ -45,4 +45,4 @@ fonctionne :
     Un joueur contre l'ordinateur : Le joueur affronte une intelligence artificielle.
     L’ordinateur respecte les mêmes règles que le joueur humain.
 
-![Ecran d'accueil du jeu](/images/Menublocus.png)            ![Ecran d'accueil du jeu](/images/jeublocus.png.png) 
+![Ecran d'accueil du jeu](/images/Menublocus.png)            ![Ecran d'accueil du jeu](/images/jeublocus.png) 
