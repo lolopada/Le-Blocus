@@ -1,0 +1,123 @@
+
+CONTIENT TOUTES LES POSITIONS DE CHAQUE BOUTONS
+	MENU
+
+/*position bouton J vs J :*/
+/*DessinerRectangle(80, 456, 235, 52);*/
+/*Zone : en x:80 à 315, en y:456 à 508*/
+
+/*position bouton J vs Pc :*/
+/*DessinerRectangle(492, 456, 235, 52);*/
+/*Zone : en x:492 à 727, en y:456 à 508*/
+
+/*position bouton Settings:*/
+/*DessinerRectangle(276, 735, 235, 52);*/
+/*Zone : en x:276 à 511, en y:735 à 787*/
+
+/*position bouton Credits:*/
+/*DessinerRectangle(132, 840, 235, 52);*/
+/*Zone : en x:132 à 367, en y:840 à 892*/
+
+/*position bouton Leave:*/
+/*DessinerRectangle(420, 840, 235, 52);*/
+/*Zone : en x:420 à 655, en y:840 à 892*/
+
+
+       GRILLE
+       
+/*position bouton 3x3*/
+/*DessinerRectangle(138, 352, 235, 52);*/
+/*zone: en x:138 à 373, en y:352 à 404*/
+
+/*position bouton 4x4*/
+/*DessinerRectangle(413, 352, 235, 52);*/
+/*zone: en x:413 à 648, en y:352 à 404*/
+
+/*position bouton 5x5*/
+/*DessinerRectangle(138, 431, 235, 52);*/
+/*zone: en x:138 à 373, en y:431 à 483*/
+
+/*position bouton 6x6*/
+/*DessinerRectangle(413, 431, 235, 52);*/
+/*zone: en x:413 à 648, en y:431 à 483*/
+
+/*position bouton 7x7*/
+/*DessinerRectangle(138, 510, 235, 52);*/
+/*zone: en x:138 à 373, en y:510 à 562*/
+
+/*position bouton 8x8*/
+/*DessinerRectangle(413, 510, 235, 52);*/
+/*zone: en x:413 à 648, en y:510 à 562*/
+
+/*position bouton 9x9*/
+/*DessinerRectangle(269, 588, 235, 52);*/
+/*zone: en x:269 à 504, en y:588 à 640*/
+
+/*position bouton back*/
+/*DessinerRectangle(282, 823, 235, 52);*/
+/*Zone : en x:282 à 517, en y:823 à 875*/
+
+
+       SETTINGS COULEURS
+
+/*position bg0*/
+/*DessinerRectangle(148, 396, 215, 41);*/
+/*Zone : en x:148 à 363, en y:396 à 437*/
+
+/*position bg1*/
+/*DessinerRectangle(410, 396, 215, 41);*/
+/*Zone : en x:410 à 625, en y:396 à 437*/
+
+/*position bg2*/
+/*DessinerRectangle(149, 690, 215, 41);*/
+/*Zone : en x:149 à 364, en y:690 à 731*/
+
+/*position solid or gradient color*/
+/*DessinerRectangle(410, 551, 215, 78);*/
+/*Zone : en x:410 à 625, en y:551 à 629*/
+
+
+       SETTINGS COULEURS 2
+
+/*position bg3*/
+DessinerRectangle(148, 237, 213, 40);
+
+/*position bg4*/
+DessinerRectangle(416, 237, 213, 40);
+
+/*position bg5*/
+ DessinerRectangle(148, 324, 213, 40);
+
+/*position bg6*/
+ DessinerRectangle(416, 324, 213, 40);
+
+/*position bg7*/
+ DessinerRectangle(148, 411, 213, 40);
+
+/*position bg8*/
+ DessinerRectangle(416, 411, 213, 40);
+
+/*position bg9*/
+ DessinerRectangle(148, 498, 213, 40);
+
+/*position bg010*/
+ DessinerRectangle(416, 498, 213, 40);
+
+/*position bg11*/
+DessinerRectangle(148, 585, 213, 40);
+
+/*position bg12*/
+DessinerRectangle(416, 585, 213, 40);
+
+
+	FIN DE JEU
+
+
+  /*bouton Leave*/
+  DessinerRectangle(294, 854, 199, 51);
+
+   /*bouton menu*/
+  DessinerRectangle(90, 754, 199, 51);
+  
+   /*bouton play gain*/
+  DessinerRectangle(507, 754, 199, 51);

@@ -1,0 +1,40 @@
+# Cible 
+but : blocus clean
+
+# VARIABLES
+CFLAGS = -Wall -Wextra -ansi -pedantic -g
+OFILES = main.o menu.o affichage.o partie_parametres.o Joueur_vs_Joueur.o Joueur_vs_Pc.o
+
+# DÉPENDANCES 
+main.o: main.c menu.h partie_parametres.h
+	gcc $(CFLAGS) -c main.c
+
+menu.o: menu.c menu.h affichage.h partie_parametres.h 
+	gcc $(CFLAGS) -c menu.c
+
+affichage.o: affichage.c affichage.h 
+	gcc $(CFLAGS) -c affichage.c
+
+partie_parametres.o: partie_parametres.c partie_parametres.h affichage.h Joueur_vs_Joueur.h Joueur_vs_Pc.h
+	gcc $(CFLAGS) -c partie_parametres.c
+
+Joueur_vs_Joueur.o: Joueur_vs_Joueur.c partie_parametres.h affichage.h Joueur_vs_Joueur.h
+	gcc $(CFLAGS) -c Joueur_vs_Joueur.c
+
+Joueur_vs_Pc.o: Joueur_vs_Pc.c partie_parametres.h affichage.h Joueur_vs_Pc.h
+	gcc $(CFLAGS) -c Joueur_vs_Pc.c
+
+
+blocus: $(OFILES)
+	gcc -o blocus $(OFILES) -lgraph
+
+
+run:
+	./blocus
+
+
+clean:
+	-rm -f $(OFILES) 
+
+# BUTS FACTICES
+.PHONY: but clean
