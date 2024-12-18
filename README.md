@@ -45,4 +45,23 @@ fonctionne :
     Un joueur contre l'ordinateur : Le joueur affronte une intelligence artificielle.
     L’ordinateur respecte les mêmes règles que le joueur humain.
 
+## Installation de la bibliotèque graphique 
+
+1. Récupérez l'archive bibliotheque-graphique-main.tar.gz, à la racine du main. Après avoir désarchiver, lancer le script configure pour préparer la compilation et l'installation : <br>
+
+```
+./configure --prefix=/usr --disable-exemples
+```
+
+`--prefix` permet de choisir le repertoire d'installation. `--enable/--disable-exemples` permet de construire ou non la librairie avec des exemples. (ExempleMandelbrot,ExempleSouris, ExempleGraphique, ExempleSprite). `--enable/--disable-xpm` permet ou non le support des images de format xpm. <br>
+
+Faire `configure --help` pour avoir la liste de toutes les options. <br>
+
+> Important!! La librairie dépend de la librairie X11 qui doit être installée préalablement et optionnellement de la librairie XPM. 
+
+2. Lancez la commande `make` pour la compilation et `make install` pour l'installation.<br>
+
+3. Lancez `make uninstall` pour la désinstallation.
+
+
 ![Ecran d'accueil du jeu](/images/Menublocus.png)            ![Ecran d'accueil du jeu](/images/jeublocus.png) 
